@@ -49,13 +49,13 @@ header {
     }
 }
 /* setting nav */
-.navbar-brand{
-    font-size: 40px!important ;
-    font-family: "Kaushan Script"!important;
+.navbar-brand {
+    font-size: 40px !important ;
+    font-family: "Kaushan Script" !important;
 }
-.nav-item a{
-    color: #fff!important;
-    font-family: "Lato"!important;
+.nav-item a {
+    color: #fff !important;
+    font-family: "Lato" !important;
     font-size: 22px;
     font-weight: 700;
 }
