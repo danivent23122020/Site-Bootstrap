@@ -34,7 +34,7 @@ header {
     margin-left: calc(2rem + 3vw);
 }
 .preTxt {
-    font-size: calc(1.4rem + 2vw);
+    font-size: calc(1.2rem + 2vw);
     font-family: "Lato" !important;
     color: #2f2d2d;
     line-height: calc(2rem + 4vw);
