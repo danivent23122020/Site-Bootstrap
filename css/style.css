@@ -135,10 +135,23 @@ header {
     font-size: calc(1.5rem + 2vw);
     font-family: "Kaushan Script";
     padding-bottom: 20px;
-    
 }
 #galerie p {
     font-size: calc(0.7rem + 2vw);
     font-family: "Lato", sans-serif;
     padding-bottom: 40px;
+}
+/*=== setting Second banniere ===*/
+#ban2 {
+    min-height: 300px;
+    position: relative;
+    background: url(../img/banniere2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#carouselContent {
+    margin-top: 100px;
+    font-size: calc(0.3rem + 2vw);
+    font-family: "Lato", sans-serif;
 }
