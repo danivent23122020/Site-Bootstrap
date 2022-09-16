@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
     font-family: "Lato", sans-serif;
 }
-/* setting header */
+/*=== setting header ===*/
 header {
     background: url(../img/bgphotshop.png);
     background-size: cover;
@@ -72,7 +72,7 @@ header {
         font-weight: 500;
     }
 }
-/* setting A propos */
+/*=== setting A propos ===*/
 #aPropos {
     display: flex;
     align-items: center;
@@ -92,5 +92,24 @@ header {
         padding-top: 75px;
         padding-bottom: 50px;
         border-bottom: 1px dashed #2f2d2d;
+    }
+}
+/*=== setting Trois Icones ===*/
+#icones {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#icones h2 {
+    font-family: "Lato" !important;
+    font-size: calc(1.1rem + 2vw);
+}
+#icones p {
+    font-family: "Lato" !important;
+    font-size: 18px;
+}
+/* responsive A propos */
+@media screen and (max-width: 760px) {
+    #icones h2 {
+        text-align: center;
     }
 }
