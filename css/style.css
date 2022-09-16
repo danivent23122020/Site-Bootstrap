@@ -14,7 +14,8 @@ header {
     margin-left: calc(2rem + 3vw);
 }
 .preTxt {
-    font-size: calc(2rem + 2vw);
+    font-size: calc(1.8rem + 2vw);
+    font-family: "Lato" !important;
     margin: 0;
     color: #2f2d2d;
     line-height: calc(2rem + 4vw);
@@ -46,6 +47,11 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    /* setting nav */
+    .nav-item a {
+        font-size: 18px !important;
+        font-weight: 500;
     }
 }
 /* setting nav */
