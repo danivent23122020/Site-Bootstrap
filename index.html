@@ -18,17 +18,11 @@
         />
         <!-- CSS Bootstrap -->
         <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-            crossorigin="anonymous"
-        />
-        <!-- <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
             crossorigin="anonymous"
-        /> -->
+        />
         <!-- Fonts -->
         <link
             href="https://fonts.googleapis.com/css?family=Kaushan+Script"
@@ -49,52 +43,64 @@
         <!-- Header Nav Title -->
         <header id="top">
             <div class="header-container">
-                <nav
-                    class="navbar navbar-expand-md bg-dark navbar-dark fixed-top"
-                    id="main-nav"
-                >
+                <nav class="navbar navbar-expand-xl bg-dark fixed-top">
                     <div class="container">
-                        <a href="index.html" class="navbar-brand brand"
+                        <a class="navbar-brand" href="index.html"
                             >Prestation Web 42</a
                         >
                         <button
-                            class="navbar-toggler"
-                            data-toggle="collapse"
-                            data-target="#navbarCollapse"
+                            class="navbar-toggler bg-light"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
                         >
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div
                             class="collapse navbar-collapse"
-                            id="navbarCollapse"
+                            id="navbarNavDropdown"
                         >
-                            <ul class="navbar-nav ml-auto" id="liens">
-                                <!-- <li class="nav-item mr-1">
-                                    <a href="#top" class="nav-link">Accueil</a>
-                                </li> -->
-                                <!-- dropdown -->
-                                <li class="nav-item mr-1 dropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="#top"
+                                        >Accueil</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#aPropos">À propos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#icones">Concept</a>
+                                </li>
+                                <li class="nav-item dropdown">
                                     <a
                                         class="nav-link dropdown-toggle"
-                                        href="#top"
+                                        href="#galerie"
                                         role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        Dropdown
+                                        Nos Projets
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="#"
+                                            <a class="dropdown-item" href="#galerie"
                                                 >Action</a
                                             >
                                         </li>
+                                        <hr />
                                         <li>
                                             <a class="dropdown-item" href="#"
                                                 >Another action</a
                                             >
                                         </li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        <hr />
                                         <li>
                                             <a class="dropdown-item" href="#"
                                                 >Something else here</a
@@ -102,23 +108,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item mr-1">
-                                    <a href="#aPropos" class="nav-link"
-                                        >Concept</a
-                                    >
-                                </li>
-                                <li class="nav-item mr-1">
-                                    <a href="#galerie" class="nav-link"
-                                        >Nos Projets</a
-                                    >
-                                </li>
-                                <li class="nav-item mr-1">
-                                    <a href="#prix" class="nav-link">Tarifs</a>
-                                </li>
-                                <li class="nav-item mr-1">
-                                    <a class="nav-link" href="#icones">
-                                        Contact
-                                    </a>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -426,27 +418,11 @@
 
         <!-- Scripts -->
         <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"
-        ></script>
-        <!-- Scripts -->
-        <!-- <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
             crossorigin="anonymous"
-        ></script> -->
-        <!-- JavaScript Bundle with Popper -->
+        ></script>
+        <!-- Ekko -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     </body>
 </html>
