@@ -27,7 +27,7 @@ header {
     font-size: 22px;
     font-weight: 700;
 }
-.nav-item{
+.nav-item {
     margin-right: 20px;
 }
 .dropdown-item {
@@ -138,21 +138,25 @@ header {
     text-align: center;
 }
 
-/*=== setting Galerie ===*/
-#galerie {
-    height: 95vh;
+/*=== setting Nos projets Lightbox ===*/
+#nosprojets {
+    width: 100%;
+    height: auto;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#galerie h2 {
+#nosprojets h1 {
     font-size: calc(1.5rem + 2vw);
     font-family: "Kaushan Script";
     padding-bottom: 20px;
 }
-#galerie p {
-    font-size: calc(0.7rem + 2vw);
+#nosprojets p {
+    font-size: calc(0.7rem + 1vw);
     font-family: "Lato", sans-serif;
     padding-bottom: 40px;
+}
+#nosprojets .row {
+    margin: 0 auto;
 }
 /*=== setting Second banniere ===*/
 #ban2 {
@@ -167,4 +171,16 @@ header {
     margin-top: 100px;
     font-size: calc(0.3rem + 2vw);
     font-family: "Lato", sans-serif;
+}
+/*=== setting carousel ===*/
+#carouselExampleControls {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 150px 100px;
+}
+.carousel-inner {
+    /* width: 50%; */
+    margin: 0 auto;
 }
