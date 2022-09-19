@@ -94,9 +94,9 @@ header {
     padding-bottom: 75px;
     border-bottom: 1px dashed #2f2d2d;
 }
-#aPropos h2 {
-    font-family: "Lato" !important;
-    font-size: calc(1.1rem + 2vw);
+#aPropos h3 {
+    font-size: calc(1.5rem + 2vw);
+    font-family: "Kaushan Script";
 }
 /* responsive A propos */
 @media screen and (max-width: 760px) {
@@ -137,6 +137,16 @@ header {
     background-repeat: no-repeat;
     text-align: center;
 }
+#ban1 h2 {
+    font-size: calc(1.5rem + 2vw);
+    font-family: "Kaushan Script";
+    margin: 0 0 30px;
+}
+#ban1 p {
+    font-size: calc(0.7rem + 1vw);
+    font-family: "Lato", sans-serif;
+    margin-bottom: 50px !important;
+}
 
 /*=== setting Nos projets Lightbox ===*/
 #nosprojets {
@@ -158,8 +168,30 @@ header {
 #nosprojets .row {
     margin: 0 auto;
 }
+
+/*=== setting carousel ===*/
+#carouselExampleControls {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+}
+#carouselExampleControls .carousel-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+#carouselExampleControls .carousel-inner h2 {
+    font-size: calc(1.5rem + 2vw);
+    font-family: "Kaushan Script";
+    margin: 0;
+    padding-bottom: 20px;
+}
+#carouselExampleControls .carousel-inner p {
+    font-size: calc(0.7rem + 1vw);
+    font-family: "Lato", sans-serif;
+    padding-bottom: 30px;
+}
 /*=== setting Second banniere ===*/
-#ban2 {
+#carouselBan2 {
     min-height: 300px;
     position: relative;
     background: url(../img/banniere2.png);
@@ -167,20 +199,15 @@ header {
     background-repeat: no-repeat;
     text-align: center;
 }
-#carouselContent {
+#carouselBan2 span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #2f2d2d;
+    background-color: #2f2d2d8e !important;
+}
+#carouselTxt {
     margin-top: 100px;
-    font-size: calc(0.3rem + 2vw);
+    font-size: calc(0.8rem + 1vw);
     font-family: "Lato", sans-serif;
-}
-/*=== setting carousel ===*/
-#carouselExampleControls {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    padding: 150px 100px;
-}
-.carousel-inner {
-    /* width: 50%; */
-    margin: 0 auto;
 }

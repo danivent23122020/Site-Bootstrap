@@ -1,11 +1,5 @@
-// carousel  ban2 -> txt
+// j-query / carousel  img/ban2 -> txt
 $(".carousel").carousel({
-    interval: 2500,
+    interval: 1000,
     pause: "null",
-});
-// carousel interval
-const myCarousel = document.querySelector("#carouselExampleControls");
-const carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 1500,
-    wrap: false,
 });
