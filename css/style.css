@@ -9,6 +9,10 @@ header {
     background-position: center;
     height: 95vh;
 }
+/* color navbar */
+.navbar{
+    background-color: rgb(69, 102, 102);
+}
 .header-container {
     max-width: 1330px;
 }
