@@ -1,5 +1,16 @@
-// j-query / carousel  img/ban2 -> txt
-$(".carousel").carousel({
-    interval: 1000,
-    pause: "null",
+// *** scroll to top ***
+//display btn
+window.addEventListener("scroll", function () {
+    let scroll = this.document.querySelector(".btn-scrollup");
+    scroll.classList.toggle("active", window.scrollY > 300);
 });
+// scroll to top
+const btn = document.querySelector(".btn-scrollup");
+btn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+    });
+});
+
