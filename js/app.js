@@ -2,7 +2,7 @@
 //display btn
 window.addEventListener("scroll", function () {
     let scroll = this.document.querySelector(".btn-scrollup");
-    scroll.classList.toggle("active", window.scrollY > 300);
+    scroll.classList.toggle("active", window.scrollY > 200);
 });
 // scroll to top
 const btn = document.querySelector(".btn-scrollup");
@@ -14,3 +14,9 @@ btn.addEventListener("click", () => {
     });
 });
 
+// *** animation resize navbar ***
+// condition animation
+window.addEventListener("scroll", function () {
+    let scroll = this.document.querySelector(".navbar");
+    scroll.classList.toggle("resize", window.scrollY > 30);
+});

@@ -42,7 +42,7 @@
             <div class="header-container">
                 <nav class="navbar navbar-expand-xl fixed-top">
                     <div class="container">
-                        <a class="navbar-brand" href="index.html"
+                        <a class="navbar-brand py-2" href="index.html"
                             >Prestation Web 42</a
                         >
                         <button
@@ -74,11 +74,36 @@
                                         >À propos</a
                                     >
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#icones"
+                                <!-- -------------------- -->
+                                <li class="nav-item dropdown">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
                                         >Concept</a
                                     >
+                                    <!-- ul dropdown-menu -->
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a
+                                                class="dropdown-item"
+                                                href="#icones"
+                                                >Icônes</a
+                                            >
+                                        </li>
+                                        <hr />
+                                        <li>
+                                            <a
+                                                class="dropdown-item"
+                                                href="#ban1"
+                                                >Démarrer</a
+                                            >
+                                        </li>
+                                    </ul>
                                 </li>
+                                <!-- -------------------- -->
                                 <li class="nav-item dropdown">
                                     <a
                                         class="nav-link dropdown-toggle"
@@ -134,7 +159,7 @@
                                         <li>
                                             <a
                                                 class="dropdown-item"
-                                                href="#nosClients"
+                                                href="#clients"
                                                 >Nos clients</a
                                             >
                                         </li>
@@ -142,7 +167,9 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="#contact"
+                                        >Contact</a
+                                    >
                                 </li>
                             </ul>
                         </div>
@@ -153,12 +180,10 @@
                     <p class="preTxt font-italic">Vos idées, notre savoir</p>
                     <h1>Prestation Web 42</h1>
                     <div class="btn-center">
-                        <a href="#" class="btn btn-lg btn-dark mt-2"
+                        <a href="#" class="btn btn-lg btn-dark m-2"
                             >En Savoir Plus</a
                         >
-                        <a
-                            href="#"
-                            class="btn btn-lg btn-outline-dark mt-2 ml-2"
+                        <a href="#" class="btn btn-lg btn-outline-dark"
                             >Nos Projets</a
                         >
                     </div>
@@ -328,7 +353,7 @@
             </div>
         </section>
         <!----------- First Banniere ---------->
-        <section id="ban1" class="py-2">
+        <section id="ban1">
             <div class="container py-5">
                 <h2 class="pb-3">Êtes-vous prêt à commencer ?</h2>
                 <p class="text-dark d-none d-md-block mb-3">
@@ -435,7 +460,7 @@
                 </div>
             </div>
         </section>
-        <!-- Carousel -->
+        <!-------------- Carousel -------------->
         <section
             id="carouselExampleControls"
             class="carousel slide"
@@ -505,7 +530,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </section>
-        <!-- Ban2 - carousel txt  -->
+        <!-------- Ban2 - carousel txt  ------->
         <section id="carouselBan2" class="py-2">
             <div class="container">
                 <div
@@ -554,7 +579,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </section>
-        <!-- Section Progress Bar -->
+        <!-------- Section Progress Bar -------->
         <section id="progress" class="my-5 d-flex align-items-center">
             <div class="container">
                 <div class="row">
@@ -624,7 +649,7 @@
                 </div>
             </div>
         </section>
-        <!-- Section Cartes/Prix -->
+        <!-------- Section Cartes/Prix/Offres ---------->
         <section id="prix">
             <h2 class="text-center offreH2">Nos Offres</h2>
             <div id="cartes" class="container">
@@ -700,76 +725,116 @@
                 </div>
             </div>
         </section>
-        <!-- Section Nos clients -->
-        <section id="nosClients" class="my-5 d-flex align-items-center">
+        <!--------- Section Nos clients --------->
+        <section id="clients">
+            <h2>Nos Clients</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 competences">
-                        <h2>Nos compétences</h2>
-                        <hr />
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptatum est ipsa perferendis magni,
-                            officiis reprehenderit molestiae vitae quaerat!
-                            Officiis excepturi eos perspiciatis distinctio
-                            cumque vel! Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit.
-                        </p>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <a href="#">
+                            <img src="./img/spotify.jpg" alt="spotify" />
+                        </a>
                     </div>
-                    <div class="col-md-6 pt-1">
-                        <p class="m-0">Marketing digital</p>
-                        <div class="progress mt-2 mb-3">
-                            <div
-                                class="progress-bar progress-bar-striped bg-danger w-25"
-                                role="progressbar"
-                                aria-valuenow="25"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            ></div>
-                        </div>
-                        <p class="m-0">Growth Hacking</p>
-                        <div class="progress mt-2 mb-3">
-                            <div
-                                class="progress-bar progress-bar-striped w-75"
-                                role="progressbar"
-                                aria-valuenow="75"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            ></div>
-                        </div>
-                        <p class="m-0">Communication</p>
-                        <div class="progress mt-2 mb-3">
-                            <div
-                                class="progress-bar progress-bar-striped bg-success w-100"
-                                role="progressbar"
-                                aria-valuenow="100"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            ></div>
-                        </div>
-                        <p class="m-0">Réseaux</p>
-                        <div class="progress mt-2 mb-3">
-                            <div
-                                class="progress-bar progress-bar-striped bg-warning w-50"
-                                role="progressbar"
-                                aria-valuenow="50"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            ></div>
-                        </div>
-                        <p class="m-0">Atribut style dans les %</p>
-                        <!-- attention : ajouter style pour le % -->
-                        <div class="progress mt-2 mb-3">
-                            <div
-                                class="progress-bar progress-bar-striped bg-warning"
-                                style="width: 35%"
-                                role="progressbar"
-                            ></div>
-                        </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <a href="#">
+                            <img src="./img/microsoft.jpg" alt="microsoft" />
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <a href="#">
+                            <img src="./img/apple.jpg" alt="apple" />
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <a href="#">
+                            <img src="./img/google.jpg" alt="google" />
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
+        <!----------- Section contact ---------->
+        <section id="contact" class="bg-light">
+            <h2>Contact</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3>Contactez-nous !</h3>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quibusdam pariatur sint autem tempore nobis.
+                            Maiores?
+                        </p>
+                        <form action="">
+                            <!-- input nom -->
+                            <div class="input-group input-group-lg my-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name=""
+                                    id=""
+                                    placeholder="Nom"
+                                />
+                            </div>
+                            <!-- input email -->
+                            <div class="input-group input-group-lg my-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i
+                                            class="fas fa-envelope"
+                                            id="inputGroup-sizing-lg"
+                                        ></i>
+                                    </span>
+                                </div>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name=""
+                                    id=""
+                                    placeholder="Email"
+                                />
+                            </div>
+                            <!-- input textarea -->
+                            <div class="input-group input-group-lg my-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </span>
+                                </div>
+                                <textarea
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Votre message..."
+                                ></textarea>
+                            </div>
+                            <input
+                                type="submit"
+                                class="btn btn-primary btn-block btn-lg my-3"
+                                value="Envoyez"
+                            />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------- Footer ------------>
+        <footer class="text-center p-4">
+            <div class="row">
+                <div class="container">
+                    <div class="col">
+                        <p>
+                            Tous droits réservés &copy;
+                            <span class="year">Prestation Web 42</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <!-- Scripts -->
         <script
