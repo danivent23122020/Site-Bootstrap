@@ -2,7 +2,7 @@
 //display btn
 window.addEventListener("scroll", function () {
     let scroll = this.document.querySelector(".scrolltop");
-    scroll.classList.toggle("active", window.scrollY > 200);
+    scroll.classList.toggle("showScrolltop", window.scrollY > 200);
 });
 
 // scroll to top
