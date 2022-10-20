@@ -469,7 +469,7 @@ header {
     bottom: 0;
     right: 2em;
 }
-.show {
+.showCookie {
     visibility: visible;
     bottom: 2em;
     right: 2em;
@@ -532,7 +532,7 @@ header {
         bottom: 2em;
         right: 0;
     }
-    .show {
+    .showCookie {
         right: 0;
         bottom: 0;
     }
