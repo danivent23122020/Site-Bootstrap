@@ -418,7 +418,7 @@ header {
 }
 
 /* Show scrolltop */
-.active {
+.showScrolltop {
     visibility: visible;
 }
 
